@@ -31,6 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
-Rest/
 h2/
 spring_boot/

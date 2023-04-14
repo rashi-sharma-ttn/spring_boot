@@ -12,14 +12,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-
-
 @SpringBootTest
 class JpaApplicationTests {
 
 	@Autowired
 	EmpRepository empRepo;
-
 	@Test
 	void contextLoads() {
 	}
@@ -90,6 +87,6 @@ class JpaApplicationTests {
 	public void testSorting(){
 		empRepo.findByAge(new Sort(Sort.Direction.DESC,"age")).forEach(p->System.out.print(p.getName()));
 	}
-*/
+	*/
 
 }
